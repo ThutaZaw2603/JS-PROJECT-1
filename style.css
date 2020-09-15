@@ -1,0 +1,101 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+body{
+    background:rgba(2, 0, 0, 0.781);
+}
+
+header{
+    background:white;
+    padding:30px;
+    border-bottom:3px solid grey;
+}
+header h1,h3{
+    color:black;
+    font-weight: 350;
+    text-align: center;
+}
+
+.scoreboard{
+    position:relative;
+    text-align:center;
+    font-size:2rem;
+    color:white;
+    border:1px solid white;
+    padding:20px;
+    width:400px;
+    margin:20px auto;
+}
+.badge{
+    font-size:22px;
+    padding:10px 10px;
+    border-radius: 10px;
+}
+#user-label{
+    position:absolute;
+    top:25%;
+    left:10%;
+    background:blue;
+    
+}
+#computer-label{
+    position:absolute;
+    top:25%;
+    right:10%;
+    background:red;
+    
+}
+
+.result{
+    color:white;
+    background:green;
+    font-size:25px;
+    font-weight: 200;
+    width:400px;
+    padding:30px;
+    margin:20px auto;
+    text-align: center;
+} 
+.choices{
+    padding:20px;
+    margin:10px auto;
+    text-align:center;
+}
+.choice{
+    
+    font-size:3rem;
+    text-align:center;
+}
+.choice{
+    display: inline-block;
+    padding:10px;
+    margin:10px 15px;
+    background-color:white;
+    border:1px solid white;
+    border-radius:30%;
+}
+.choice:hover{
+ 
+    cursor: pointer;
+}
+#roll{
+    color:white;
+    font-size:30px;
+    text-align: center;
+    margin:0px auto;
+}
+
+.winColor{
+    border:2px solid green;
+    background:blue;
+}
+.loseColor{
+    border:1px solid red;
+    background:red;
+}
+.drawColor{
+    border:1px solid green;
+    background: green
+}
